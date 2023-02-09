@@ -1,9 +1,12 @@
+// 给定你一个长度为n的整数数列。
+// 请你使用快速排序对这个数列按照从小到大进行排序。
+// 并将排好序的数列按顺序输出。
+
 #include <iostream>
+using namespace std;
 
 const int N = 100010;
 int q[N];
-
-using namespace std;
 
 void quick_sort(int q[], int l, int r){
     if(l >= r) return;
